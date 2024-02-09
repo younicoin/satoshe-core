@@ -8,4 +8,4 @@ This is official repository for Satoshe Network [SOSHE], featuring source code f
 
 
 ## License
-Satoshe is released under the terms of the MIT license. See [MIT-LICENSE](/mit-license.md) for more information or see http://opensource.org/licenses/MIT.
+Satoshe is released under the terms of the MIT license. See [MIT-LICENSE](/MIT-LICENSE) for more information or see http://opensource.org/licenses/MIT.
