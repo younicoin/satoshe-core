@@ -75,7 +75,7 @@ addnode=82.97.246.156
 addnode=37.220.83.16
 ```
 
-Type any of your values in the **rpcuser** and **rpcpassword** fields, then save the file with the keyboard shortcut ctrl + x.
+Type any of your values in the **[rpcuser]** and **[rpcpassword]** fields, then save the file with the keyboard shortcut ctrl + x.
 
 ### Step №7.
 
