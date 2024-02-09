@@ -1,6 +1,6 @@
-# Compiling Linux source guide
+# Compiling Linux Source Guide
 
-Let's compile a wallet for Ubuntu/Linux on Ubuntu Server 20.04 and abobe with the following tutorial.
+Let's compile a wallet for Ubuntu/Linux on Ubuntu Server 20.04 and higher with the following tutorial.
 
 ### Step №1.
 
@@ -37,7 +37,7 @@ mkdir satoshe-src
 cd satoshe-src
 ```
 
-And download the source code of your coin with the following command:
+And download the source code of **SOSHE** with the following command:
 
 ```
 git clone https://github.com/SatosheNetwork/satoshe-core.git .
@@ -45,7 +45,7 @@ git clone https://github.com/SatosheNetwork/satoshe-core.git .
 
 ### Step №4-1 (Build 64-bit ver)
 
-Build x86_64-linux-gnu version with the following commands:
+Build x86_64-satoshe Linux-gnu version with the following commands:
 
 ```
 PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g')
@@ -59,7 +59,7 @@ Type the following commands to compile your wallet for Ubuntu Linux.
 ```
 ./autogen.sh
 CONFIG_SITE=$PWD/depends/x86_64-pc-linux-gnu/share/config.site ./configure --prefix=/
-sudo make
+make
 ```
 
 Type the following command to clean your source code:
@@ -70,7 +70,7 @@ make clean
 
 ### Step №4-2 (Build 32-bit ver)
 
-Build x86_linux-gnu version with the following commands:
+Build x86-satoshe Linux-gnu version with the following commands:
 
 ```
 PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g')
@@ -79,14 +79,12 @@ sudo make HOST=i686-pc-linux-gnu
 cd ..
 ```
 
-### Step №5
-
 Type the following commands to compile your wallet for Ubuntu Linux.
 
 ```
 ./autogen.sh
 CONFIG_SITE=$PWD/depends/i686-pc-linux-gnu/share/config.site ./configure --prefix=/
-sudo make
+make
 ```
 
 > The compiled wallet for Ubuntu Linux is located in the directory `src/qt`, the tools are located in the directory `src`.
