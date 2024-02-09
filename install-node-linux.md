@@ -12,7 +12,8 @@ sudo apt-get update && sudo apt-get upgrade -y
 
 > **If you have Ubuntu version 20.04**, you will need to upgrade to GLIBC version >=2.34. 
 
-```apt update && apt upgrade
+```
+apt update && apt upgrade
 echo "deb http://cz.archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list && apt update && apt install tmux -y && apt install libc6 -y
 ```
 
