@@ -6,7 +6,11 @@ Download the latest satoshe-x.x.x-win.zip archive release from this repository a
 
 ### Step №2.
 
-Click on the menu bar, type the following text `%appdata%` and press on the "ENTER" key, so you should now be in the current folder
+Click on the menu bar, type the following text 
+```
+%appdata%
+```
+and press on the "ENTER" key, so you should now be in the current folder
 
 `C:\Users\User\AppData\Roaming\`
 
