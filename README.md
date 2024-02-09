@@ -1,5 +1,5 @@
 # Satoshe Core
-This is official repository for Satoshe Network [SOSHE], featuring source code for our Litecoin (LTC) fork, wallet software, and builds. This repository serves as a hub for developers and users to access the core components necessary to interact with the Satoshe Network ecosystem. 
+This is official repository for **Satoshe Network [SOSHE]**, featuring source code for our **Litecoin** (LTC) fork, wallet software, and builds. This repository serves as a hub for developers and users to access the core components necessary to interact with the Satoshe Network ecosystem. 
 
 ## What is Satoshe [SOSHE]?
 **SOSHE** - is an innovative coin developed by enterprising young girls seeking to conquer the crypto-world. This coin transforms the usual concept of a decentralized network into a charitable and accessible platform open to anyone interested in mining, investing and using cryptocurrencies.
@@ -22,7 +22,7 @@ This is official repository for Satoshe Network [SOSHE], featuring source code f
 Select the section you need, using the menu below, for quick access to the documentation you need. 
 
 - [Linux node + wallet installation](/install-node-linux.md)
-- Windows wallet installation
+- [Windows wallet installation](install-wallet-windows.md)
 - [Linux compiling](/compile-source-linux.md)
 - [Windows compiling](/compile-source-windows.md)
 
