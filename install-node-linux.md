@@ -1,4 +1,4 @@
-# Linux node + wallet installation guide
+# Linux Node Wallet Installation Guide
 
 [!] Before start, make sure you have Ubuntu version 20.04 or higher installed and then follow the tutorial.
   
