@@ -8,14 +8,14 @@ This is official repository for Satoshe Network [SOSHE], featuring source code f
 
 ## Blockchain Specification:
 
-- Network Name: SATOSHE Network
-- Coin Ticker: SOSHE
-- Consensus Mechanism: PoW + PoS
-- Hashing Algorithm: Scrypt
-- Block Time: 1 min.
-- PoW Block Reward: 10
-- PoS Block Reward: 4
-- Total Supply: 30,000,000 PoW + Unlimited PoS
+- **Network Name**: `SATOSHE Network`
+- **Coin Ticker**: `SOSHE`
+- **Consensus Mechanism**: `PoW + PoS`
+- **Hashing Algorithm**: `Scrypt`
+- **Block Time**: `1 min.`
+- **PoW Block Reward**: `10`
+- **PoS Block Reward**: `4`
+- **Total Supply**: `30,000,000 PoW + Unlimited PoS`
 
 ## Quick Start
 
@@ -24,7 +24,7 @@ Select the section you need, using the menu below, for quick access to the docum
 - [Linux node + wallet installation](/install-node-linux.md)
 - Windows wallet installation
 - [Linux compiling](/compile-source-linux.md)
-- [Windows compiling](/compile-source-linux.md)
+- [Windows compiling](/compile-source-windows.md)
 
 ## Bounty Programs
 
