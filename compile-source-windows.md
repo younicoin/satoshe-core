@@ -60,7 +60,7 @@ cd ..
 
 ### Step №5
 
-Type the following commands to compile your wallet for Ubuntu Linux.
+Type the following commands to compile your wallet for Windows.
 
 ```
 ./autogen.sh
