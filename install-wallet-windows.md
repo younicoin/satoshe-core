@@ -39,11 +39,11 @@ addnode=82.97.246.156
 addnode=37.220.83.16
 ```
 
-Type any of your values in the **rpcuser** and **rpcpassword** fields, then click on the menu item "File" -> "Save As...".
+Type any of your values in the **[rpcuser]** and **[rpcpassword]** fields, then click on the menu item `File" -> "Save As...`.
 
-The open dialog box will appear, click on "Save as type" and select the option "_All Files (*.*)_".
+The open dialog box will appear, click on `Save as type` and select the option `_All Files (*.*)_`.
 
-Enter the following text behind "_File name_": `satoshe.conf`
+Enter the following text behind `_File name_`: `satoshe.conf`
 
 Press on the button "`Save`".
 
