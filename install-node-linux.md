@@ -6,11 +6,15 @@
 
 Update your Ubuntu server:
 
-```sudo apt-get update && sudo apt-get upgrade -y```
+```
+sudo apt-get update && sudo apt-get upgrade -y
+```
 
 > **If you have Ubuntu version 20.04**, you will need to upgrade to GLIBC version >=2.34. 
 
-```apt update && apt upgrade && echo "deb http://cz.archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list && apt update && apt install tmux -y && apt install libc6 -y```
+```apt update && apt upgrade
+echo "deb http://cz.archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list && apt update && apt install tmux -y && apt install libc6 -y
+```
 
 Answer yes to any question to complete installation.
 
@@ -18,31 +22,41 @@ Answer yes to any question to complete installation.
 
 Download the Linux daemon and tools for your walle:
 
-```wget "" -O satoshe-1.0.0-linux.tar.gz```
+```
+wget "" -O satoshe-1.0.0-linux.tar.gz
+```
 
 ### Step №3.
 
 Extract the .tar file:
 
-```tar -xzvf satoshe-1.0.0-linux.tar.gz```
+```
+tar -xzvf satoshe-1.0.0-linux.tar.gz
+```
 
 ### Step №4.
 
 Type the following command to install the daemon and tools for your wallet:
 
-```sudo mv satoshed satoshe-cli satoshe-tx /usr/bin/```
+```
+sudo mv satoshed satoshe-cli satoshe-tx /usr/bin/
+```
 
 ### Step №5.
 
 Create the data directory for your coin with the following command:
 
-```mkdir $HOME/.satoshe```
+```
+mkdir $HOME/.satoshe
+```
 
 ### Step №6.
 
 Create new **satoshe.conf** with nano
 
-```nano $HOME/.satoshe/satoshe.conf -t```
+```
+nano $HOME/.satoshe/satoshe.conf -t
+```
 
 and paste the following text.
 
@@ -66,7 +80,9 @@ Type any of your values in the **rpcuser** and **rpcpassword** fields, then save
 
 Type the following command to start your node:
 
-```satoshed -daemon```
+```
+satoshed -daemon
+```
 
 ### Optional wallet commands.
 
