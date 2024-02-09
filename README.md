@@ -23,8 +23,8 @@ Select the section you need, using the menu below, for quick access to the docum
 
 - [Linux node + wallet installation](/install-node-linux.md)
 - Windows wallet installation
-- [Linux compiling](compile-source-linux.md)
-- Windows compiling 
+- [Linux compiling](/compile-source-linux.md)
+- [Windows compiling](/compile-source-linux.md)
 
 ## Bounty Programs
 
