@@ -14,7 +14,11 @@ and press on the "ENTER" key, so you should now be in the current folder
 
 `C:\Users\User\AppData\Roaming\`
 
-Then, create the folder `SATOSHE` and open the folder.
+Then, create the folder `SATOSHE` here and open the folder.
+
+You should be in the folder now:
+
+`C:\Users\User\AppData\Roaming\SATOSHE`
 
 ### Step №3.
 
