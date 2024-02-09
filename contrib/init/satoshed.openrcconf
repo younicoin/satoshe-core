@@ -1,0 +1,33 @@
+# /etc/conf.d/satoshed: config file for /etc/init.d/satoshed
+
+# Config file location
+#BLACKMORED_CONFIGFILE="/etc/satoshe/satoshe.conf"
+
+# What directory to write pidfile to?  (created and owned by $BLACKMORED_USER)
+#BLACKMORED_PIDDIR="/var/run/satoshed"
+
+# What filename to give the pidfile
+#BLACKMORED_PIDFILE="${BLACKMORED_PIDDIR}/satoshed.pid"
+
+# Where to write satoshed data (be mindful that the blockchain is large)
+#BLACKMORED_DATADIR="/var/lib/satoshed"
+
+# User and group to own satoshed process
+#BLACKMORED_USER="satoshe"
+#BLACKMORED_GROUP="satoshe"
+
+# Path to satoshed executable
+#BLACKMORED_BIN="/usr/bin/satoshed"
+
+# Nice value to run satoshed under
+#BLACKMORED_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#BLACKMORED_OPTS=""
+
+# The timeout in seconds OpenRC will wait for satoshed to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BLACKMORED_SIGTERM_TIMEOUT=600
