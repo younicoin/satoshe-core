@@ -29,14 +29,14 @@ Select the section you need, using the menu below, for quick access to the docum
 ## Information
 
 - Website - https://shesatoshi.org/
-- Roadmap https://shesatoshi.org/roadmap
-- Whitepaper https://shesatoshi.org/whitepaper
-- Official GitHub https://github.com/SatosheNetwork
+- Roadmap - https://shesatoshi.org/roadmap
+- Whitepaper - https://shesatoshi.org/whitepaper
+- Official GitHub - https://github.com/SatosheNetwork
 
 ## Social Media
 
-- Official Twitterhttps://x.com/SATOSHEcoin?s=20
-- Official Discord https://discord.com/invite/SBez3DxgUa
+- Official Twitter - https://x.com/SATOSHEcoin?s=20
+- Official Discord - https://discord.com/invite/SBez3DxgUa
 
 ## Bounty Programs
 
