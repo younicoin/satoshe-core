@@ -26,6 +26,18 @@ Select the section you need, using the menu below, for quick access to the docum
 - [Linux compiling](/compile-source-linux.md)
 - [Windows compiling](/compile-source-windows.md)
 
+## Information
+
+- [Website](https://shesatoshi.org/)
+- [Roadmap](https://shesatoshi.org/roadmap)
+- [Whitepaper](https://shesatoshi.org/whitepaper)
+- [Official GitHub](https://github.com/SatosheNetwork)
+
+## Social Media
+
+- [Official Twitter](https://x.com/SATOSHEcoin?s=20)
+- [Official Discord](https://discord.com/invite/SBez3DxgUa)
+
 ## Bounty Programs
 
 Satoshe network cannot at this time commit to bounty payments ahead of time. However, we will use our best judgement and do intend on rewarding those who provide valuable disclosures (with a strong emphasis on easy to read and reproduce disclosures).
