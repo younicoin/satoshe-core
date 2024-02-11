@@ -211,7 +211,7 @@ BitcoinGUI::BitcoinGUI(const Config *cfg, const PlatformStyle *platformStyle, co
     frameBlocksLayout->addWidget(labelBlocksIcon);
     frameBlocksLayout->addStretch();
 	
-	if (GetBoolArg("-staking", true))
+	if (GetBoolArg("-staking", false))
     {
         QTimer *timerStakingIcon = new QTimer(labelStakingIcon);
         connect(timerStakingIcon, SIGNAL(timeout()), this, SLOT(updateStakingIcon()));

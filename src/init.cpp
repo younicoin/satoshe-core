@@ -484,7 +484,7 @@ std::string HelpMessage(HelpMessageMode mode)
 
 #ifdef ENABLE_WALLET
     strUsage += HelpMessageGroup(_("Staking options:"));
-    strUsage += HelpMessageOpt("-staking=<n>", strprintf(_("Enable staking functionality (0-1, default: %u)"), 1));
+//    strUsage += HelpMessageOpt("-staking=<n>", strprintf(_("Enable staking functionality (0-1, default: %u)"), 1));
     strUsage += HelpMessageOpt("-reservebalance=<amount>", _("Keep the specified amount of coins available for spending at all times (default: 0)"));
 //    strUsage += HelpMessageOpt("-donatetodevfund=<n>", strprintf(_("Donate the specified percentage of staking rewards to the dev fund (default: %u)"), DEFAULT_DONATION_PERCENTAGE));
 #endif
@@ -1543,7 +1543,7 @@ bool AppInit2(Config& config, boost::thread_group& threadGroup, CScheduler& sche
 
 #ifdef ENABLE_WALLET
     // Mine proof-of-stake blocks in the background
-    if (!GetBoolArg("-staking", true))
+    if (!GetBoolArg("-staking", false))
         LogPrintf("Staking disabled\n");
     else if (pwalletMain)
         threadGroup.create_thread(boost::bind(&ThreadStakeMiner, pwalletMain, chainparams));
