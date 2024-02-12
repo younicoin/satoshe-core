@@ -35,7 +35,7 @@ Select the section you need, using the menu below, for quick access to the docum
 
 ## Social Media
 
-- Official Twitter - https://x.com/SATOSHEcoin?s=20
+- Official Twitter - https://x.com/SATOSHEcoin
 - Official Discord - https://discord.com/invite/SBez3DxgUa
 
 ## Pools
