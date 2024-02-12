@@ -38,6 +38,14 @@ Select the section you need, using the menu below, for quick access to the docum
 - Official Twitter - https://x.com/SATOSHEcoin?s=20
 - Official Discord - https://discord.com/invite/SBez3DxgUa
 
+## Pools
+
+- Lucku Dog Pool - https://luckydogpool.com/
+
+`-a scrypt -o stratum+tcp://stratum.luckydogpool.com:7048 -u YOURWALLET -p c=SOSHE`
+
+[!] ASIC and MRR compatible
+
 ## Bounty Programs
 
 Satoshe network cannot at this time commit to bounty payments ahead of time. However, we will use our best judgement and do intend on rewarding those who provide valuable disclosures (with a strong emphasis on easy to read and reproduce disclosures).
