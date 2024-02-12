@@ -40,11 +40,9 @@ Select the section you need, using the menu below, for quick access to the docum
 
 ## Pools
 
-- Lucku Dog Pool - https://luckydogpool.com/
+- Lucku Dog Pool - https://luckydogpool.com/ (ASIC and MRR compatible)
 
 `-a scrypt -o stratum+tcp://stratum.luckydogpool.com:7048 -u YOURWALLET -p c=SOSHE`
-
-[!] ASIC and MRR compatible
 
 ## Bounty Programs
 
