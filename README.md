@@ -50,6 +50,7 @@ Select the section you need, using the menu below, for quick access to the docum
 `-a scrypt -o stratum+tcp://cminer.org:9142 -u WALLET_ADDRESS.WORKER_NAME -p c=SOSHE`
 
 - PoolMZ - https://poolmz.online/
+
 `-a scrypt -o stratum+tcp://poolmz.zapto.org:4852 -u WALLET_ADDRESS.WORKER_NAME -p c=SOSHE`
 
 - ZPool - https://zpool.ca/
