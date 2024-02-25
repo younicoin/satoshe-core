@@ -37,12 +37,24 @@ Select the section you need, using the menu below, for quick access to the docum
 
 - Official Twitter - https://x.com/SATOSHEcoin
 - Official Discord - https://discord.com/invite/SBez3DxgUa
+- Official Telegram - https://t.me/SatosheNetwork
 
 ## Pools
 
-- Lucku Dog Pool - https://luckydogpool.com/ (ASIC and MRR compatible)
+- Lucku Dog Pool - https://luckydogpool.com/
 
 `-a scrypt -o stratum+tcp://stratum.luckydogpool.com:7048 -u YOURWALLET -p c=SOSHE`
+
+- CMiner Pool - https://cminer.org/
+
+`-a scrypt -o stratum+tcp://cminer.org:9142 -u WALLET_ADDRESS.WORKER_NAME -p c=SOSHE`
+
+- PoolMZ - https://poolmz.online/
+`-a scrypt -o stratum+tcp://poolmz.zapto.org:4852 -u WALLET_ADDRESS.WORKER_NAME -p c=SOSHE`
+
+- ZPool - https://zpool.ca/
+
+`-a scrypt -o stratum+tcp://scrypt.eu.mine.zpool.ca:3433 -u YOURWALLET -p c=SOSHE`
 
 ## Bounty Programs
 
