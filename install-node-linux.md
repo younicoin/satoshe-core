@@ -24,7 +24,7 @@ Answer yes to any question to complete installation.
 Download the Linux daemon and tools for your walle:
 
 ```
-wget "" -O satoshe-1.0.0-linux.tar.gz
+wget https://github.com/SatosheNetwork/satoshe-core/releases/download/v1.0.0/satoshe-1.0.0-linux.tar.gz -O satoshe-1.0.0-linux.tar.gz
 ```
 
 ### Step №3.
